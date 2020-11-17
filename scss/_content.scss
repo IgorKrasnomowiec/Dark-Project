@@ -1,0 +1,100 @@
+.container__content {
+  background-color: $background_color;
+}
+
+.container__content_elements {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.content_element_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  color: white;
+  .element_box_picture {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 30%;
+  }
+  .element__box__h2 {
+    width: 50%;
+  }
+  .element__box__p {
+    color: $content_p_color;
+    width: 40%;
+    margin-right: 70px;
+    text-align: justify;
+  }
+}
+.container__two__elements {
+  display: flex;
+  margin-top: 40px;
+  .two__elements__picture {
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+.two__elements__content {
+  margin-top: 100px;
+  font-family: "Open Sans";
+  .two__elements__h3 {
+    color: white;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+  }
+  .two__elements__p1 {
+    color: white;
+    margin-bottom: 15px;
+    width: 90%;
+  }
+  .elements__p2 {
+    color: white;
+    margin-bottom: 15px;
+    margin-right: 40px;
+  }
+  .elements__p3 {
+    color: white;
+  }
+}
+.content__3elements {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 40px;
+  .content__3elements__one {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.content__three__elements {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 50px;
+  .three__first {
+    background-color: $three_blocks_color;
+    margin-right: 30px;
+    padding-bottom: 30px;
+    .three__first__p {
+      @include p_alignment();
+    }
+  }
+}
+.circle1 {
+  @include makecircle();
+}
+.three__secont__p {
+  display: inline-block;
+}
+
+.three__secont__p {
+  color: white;
+  font-weight: bold;
+  .bottom_signature {
+    color: grey;
+    font-weight: lighter;
+  }
+}
