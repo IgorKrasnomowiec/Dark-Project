@@ -7,7 +7,6 @@
 }
 
 .wrapper {
-  width: 1400px;
   margin: 0 auto;
   background-color: #181f2a;
 }
@@ -35,6 +34,7 @@
 }
 
 .head__content {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -69,6 +69,7 @@
 
 .container__content {
   background-color: #181f2a;
+  padding-bottom: 300px;
 }
 
 .container__content_elements {
@@ -115,7 +116,7 @@
 .two__elements__content .two__elements__h3 {
   color: white;
   font-size: 30px;
-  margin-left: 60px;
+  margin-left: 120px;
   margin-bottom: 30px;
 }
 .two__elements__content .two__elements__p1 {
@@ -180,5 +181,133 @@
 .three__secont__p .bottom_signature {
   color: grey;
   font-weight: lighter;
+}
+
+.container__footer {
+  background-color: #0b1523;
+  padding-bottom: 50px;
+}
+
+.bottom_footer__p {
+  position: relative;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+
+.footer__fylo {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+
+.left__part_footer {
+  margin-right: 200px;
+  width: 20%;
+}
+
+.bottom__footer__number {
+  display: flex;
+}
+
+.footer__email {
+  display: flex;
+}
+
+.number {
+  margin-right: 20px;
+}
+
+.email {
+  margin-right: 20px;
+}
+
+.footer__email__p {
+  margin-top: 20px;
+}
+
+.pin {
+  position: absolute;
+  top: 1px;
+  left: 67px;
+}
+
+.footer__about__us {
+  list-style: none;
+  margin-right: 40px;
+  line-height: 30px;
+  color: grey;
+}
+.footer__about__us:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.footer__contact__us {
+  position: relative;
+  list-style: none;
+  margin-right: 40px;
+  line-height: 30px;
+  color: grey;
+}
+.footer__contact__us:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.get__early {
+  position: absolute;
+  top: 2385px;
+  left: 542px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 300px;
+  width: 900px;
+  background-color: #394246;
+}
+
+.get__early__input {
+  display: flex;
+  justify-content: center;
+}
+
+.get__early__p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: "railway";
+  margin-bottom: 30px;
+}
+
+.get__early__p2 {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.get__ready__placeholder {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 240px;
+  margin-right: 100px;
+  border-radius: 70px;
+}
+
+.get__early__button {
+  color: white;
+  font-family: "railway";
+  background-color: #65e2d9;
+  padding: 13px 30px;
+  margin-right: 30px;
+  border-radius: 30px;
+}
+.get__early__button:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

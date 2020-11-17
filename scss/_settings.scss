@@ -24,3 +24,23 @@
   margin-right: 20px;
   text-align: justify;
 }
+
+@mixin placeholder__style() {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 240px;
+  margin-right: 100px;
+  border-radius: 70px;
+}
+@mixin get__ready__button() {
+  color: white;
+  font-family: "railway";
+  background-color: $get__early__button;
+  padding: 13px 30px;
+  margin-right: 30px;
+  border-radius: 30px;
+  &:hover {
+    cursor: pointer;
+  }
+}

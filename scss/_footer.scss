@@ -1,0 +1,102 @@
+.container__footer {
+  background-color: $footer__background__color;
+  padding-bottom: 50px;
+}
+.bottom_footer__p {
+  position: relative;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding-bottom: 40px;
+}
+.a__pin {
+}
+
+.footer__fylo {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+}
+.left__part_footer {
+  margin-right: 200px;
+  width: 20%;
+}
+.bottom__footer__number {
+  display: flex;
+}
+.footer__email {
+  display: flex;
+}
+.number {
+  margin-right: 20px;
+}
+.email {
+  margin-right: 20px;
+}
+.footer__email__p {
+  margin-top: 20px;
+}
+.pin {
+  position: absolute;
+  top: 1px;
+  left: 67px;
+}
+.footer__about__us {
+  list-style: none;
+  margin-right: 40px;
+  line-height: 30px;
+  color: grey;
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+.footer__contact__us {
+  position: relative;
+  list-style: none;
+  margin-right: 40px;
+  line-height: 30px;
+  color: grey;
+  &:hover {
+    color: white;
+    cursor: pointer;
+  }
+}
+
+.get__early {
+  position: absolute;
+  top: 2385px;
+  left: 542px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  height: 300px;
+  width: 900px;
+  background-color: $get__early__background;
+}
+.get__early__input {
+  display: flex;
+  justify-content: center;
+}
+.get__early__p {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  font-family: "railway";
+  margin-bottom: 30px;
+}
+.get__early__p2 {
+  text-align: center;
+  color: white;
+  font-family: "Open Sans";
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+.get__ready__placeholder {
+  @include placeholder__style();
+}
+
+.get__early__button {
+  @include get__ready__button();
+}
