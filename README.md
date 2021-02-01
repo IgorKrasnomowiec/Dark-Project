@@ -1,6 +1,8 @@
-# Frontend Mentor - Fylo landing page with dark theme and features grid
+https://igorkrasnomowiec.github.io/Dark-Project/.
 
-![Design preview for the Fylo landing page with dark theme and features grid challenge](./design/desktop-preview.jpg)
+Training site without JavaScript
+__________________________________________________
+
 
 ## Welcome! 👋
 
